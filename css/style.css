@@ -1,4 +1,4 @@
-p {
+p, .gray {
     background-color: #eeeeee;
 }
 
@@ -12,4 +12,29 @@ p {
 
 [data-color="blue"] {
     background-color: blue;
+}
+.white {
+    color: white;
+}
+
+div.red {
+    background-color: pink;
+}
+
+.gray.white {
+    color: black;
+}
+
+.menu a {
+    font-size: 24px;
+    background-color: grey;
+    color: white;
+}
+
+.menu > a {
+    text-decoration: none;
+}
+
+.menu a:hover {
+    opacity: 0.5;
 }
