@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
     <meta charset="utf-8">
-    <title>Мини - сайт, математика чисел 5 и </title>
+    <title>Мини - сайт, математика чисел 5 и 3</title>
+    <link rel="stylesheet" type="text/css" href="/style.css">
 </head>
 <body>
 
