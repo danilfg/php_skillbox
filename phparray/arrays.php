@@ -28,5 +28,21 @@ $stringKeysArray = [
 ];
 
 var_dump($stringKeysArray);
+
+$mixedTypeKeysArray = [
+    12 => "значение с ключом число",
+    "some_key" => "значение с ключом строка"
+];
+$array1 = $mixedTypeKeysArray[12];
+$array2 = $mixedTypeKeysArray["some_key"];
+
+var_dump($array1);
+
+$mixedTypeKeysArray[12] = 100;
+var_dump($mixedTypeKeysArray[12]);
+
+var_dump($array2);
+
+
 ?>
 </pre>
